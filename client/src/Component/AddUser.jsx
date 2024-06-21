@@ -52,20 +52,19 @@ export default function AddUser() {
                             </div>
                             <div className="modal-body">
                                 <div className="form-group">
-                                    <label>Name</label>
+                                    <label>Title</label>
                                     <input type="text" value={value.name} name='name' onChange={handleOnchange} className="form-control" required />
                                 </div>
                                 <div className="form-group">
-                                    <label>Father </label>
+                                    <label>Timing </label>
                                     <input type="text" value={value.fathername} name='fathername' onChange={handleOnchange} className="form-control" required />
                                 </div>
                                 <div className="form-group">
-                                    <label>Email</label>
-                                    <input type="email" value={value.email} name='email' onChange={handleOnchange} className="form-control" required />
-
+                                    <label>gmail</label>
+                                    <input type="email" value={value.email} name='email' onChange={handleOnchange} className="form-control"  />
                                 </div>
                                 <div className="form-group">
-                                    <label>Phone</label>
+                                    <label>description</label>
                                     <input type="text" value={value.phone} name='phone' onChange={handleOnchange} className="form-control" required />
                                 </div>
                             </div>

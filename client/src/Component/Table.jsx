@@ -34,7 +34,7 @@ export default function Table({ Deletuser, UpdatedUser }) {
                             </div>
                             <div className="col-sm-6">
                                 <a href="#" className="btn btn-success" data-bs-toggle="modal" data-bs-target="#addEmployeeModal">
-                                    <i className="material-icons">&#xE147;</i> <span>Add New Employee</span>
+                                    <i className="material-icons">&#xE147;</i> <span>Add to do</span>
                                 </a>
                             </div>
                         </div>
@@ -43,10 +43,10 @@ export default function Table({ Deletuser, UpdatedUser }) {
                         <thead>
                             <tr>
                                 <th></th>
-                                <th>Name</th>
-                                <th>Father</th>
-                                <th>Email</th>
-                                <th>Phone</th>
+                                <th>Title</th>
+                                <th>Timing</th>
+                                <th>gmail</th>
+                                <th>description</th>
                                 <th>Actions</th>
                             </tr>
                         </thead>
